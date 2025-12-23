@@ -1,0 +1,125 @@
+.container{
+   background: white;
+   color: rgb(182, 11, 182);
+}
+ 
+#boxy1{
+   display: flex;
+   flex-direction: row;
+   padding-left: 400px;
+   
+}
+#boxy{
+   display: flex;
+   flex-direction: row;
+}
+.box{
+    
+    
+   width: 75px;
+   margin: 10px;
+   box-sizing: border-box;
+}
+.boxa{
+    
+   width: 75px;
+   margin: 10px;
+   box-sizing: border-box;
+}
+#box1{
+   height: 20px;
+   width: 20px;
+}
+#box10{
+   height: 20px;
+   width: 100px;
+}
+#box11{
+   height: 20px;
+   width: 100px;
+}
+#box8{
+   padding-left: 10px;
+}
+.container2{
+   background: rgb(0, 0, 0);
+   color: antiquewhite;
+   display: flex;
+   flex-direction: row;
+   border: 0px solid;
+   border-radius: 20px;
+   overflow: auto;
+   font-family:cursive ;
+}
+.boxb{
+    
+   width: 75px;
+   margin: 10px;
+   box-sizing: border-box;
+}
+#box27{
+   padding-left: 20px;
+}
+#box21{
+    height: 5px;
+}
+.button{
+   background-color: rgb(5, 194, 5);
+   border: none;
+   color: white;
+   border-radius: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer
+}
+.button1{
+   background-color:white ;
+   border: 1px solid rgb(182, 11, 182);
+   color: rgb(182, 11, 182);
+   border-radius: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer
+}
+.button1:hover{
+   background-color: rgb(212, 255, 0);
+   font-size: 1.4em;
+}
+button:active{
+   background-color: black;
+   font-size: 1.1em;
+}
+.html::before{
+   content: "▫️";
+}
+input:focus{
+   background-color: chocolate;
+   font: size 1.3em; ;
+}
+a{
+   color: rgb(255, 0, 0);
+}
+a:visited{
+   color: pink;
+}
+a:link{
+   background-color:black ;
+   font-size: 1.2em;
+}
+a:hover{
+   opacity: 0.5;
+}
+h1::first-letter{
+   font-size: 1.1em;
+   text-transform: capitalize;
+}
+#box16{
+   padding-right: 100px;
+}
+li::after{
+   content:"✅";
+}
