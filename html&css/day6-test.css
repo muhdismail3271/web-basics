@@ -1,0 +1,59 @@
+#butt{
+   opacity: 0;
+}
+#butt:hover{
+   opacity:1;
+   font-size: 1.2em;
+}
+#butt2{
+   display: none;
+}
+#butt2:hover{
+   opacity:1;
+   font-size: 1.2em;
+}
+.box{
+   width: 100px;
+   height: 100px;
+}
+#child3{
+   background-color: blue;
+}
+#child1{
+   background-color: rgb(200, 255, 0);
+}
+#child2{
+   background-color: rgb(255, 0, 0);
+}
+#child4{
+   background-color: rgb(0, 255, 102);
+}
+#child5{
+   background-color: rgb(0, 0, 0);
+   color: aqua;
+}
+#child6{
+   background-color: rgb(200, 255, 0);
+}
+#child7{
+   background-color: rgb(255, 0, 195);
+}
+#child8{
+   background-color: rgb(204, 1, 255);
+}
+#child9{
+   background-color: rgb(0, 62, 154);
+}
+#child10{
+   background-color: rgb(255, 162, 0);
+}
+#container{
+   border: 1px solid;
+   display: flex;
+   background-color: rgb(148, 238, 208);
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   align-items:flex-end;
+   height: 500px;
+
+}
